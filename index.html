@@ -41,17 +41,18 @@
       e.preventDefault();
       if (input.value) {
         const clientOffset = `${socket.id}-${counter++}`;
-        socket.emit('chat message', input.value, clientOffset);
+        socket.emit('#6CAbaFWVm%t8bS4', input.value, clientOffset);
         input.value = '';
       }
     });
 
-    socket.on('chat message', (msg, serverOffset) => {
+    socket.on('#6CAbaFWVm%t8bS4', (msg, serverOffset) => {
       const item = document.createElement('li');
       item.textContent = msg;
       messages.appendChild(item);
       window.scrollTo(0, document.body.scrollHeight);
       socket.auth.serverOffset = serverOffset;
+      console.log('desde el user: ', msg, serverOffset)
     });
   </script>
 </body>

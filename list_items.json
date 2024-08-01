@@ -1,0 +1,880 @@
+[
+    {
+        "item_id": 1,
+        "name": "Mojito Clásico",
+        "category": "bebibles",
+        "price": 10,
+        "description": "Un refrescante cóctel cubano hecho con ron blanco, menta fresca, azúcar, limón y soda.",
+        "portion": 1,
+        "ingredients": [
+            "Ron blanco",
+            "Menta fresca",
+            "Azúcar",
+            "Jugo de limón",
+            "Soda",
+            "Hielo"
+        ],
+        "keywords": [
+            "Hierbas frescas",
+            "Preparación artesanal"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/mojito_clasico.png"
+    },
+    {
+        "item_id": 2,
+        "name": "Negroni",
+        "category": "bebibles",
+        "price": 12,
+        "description": "Un cóctel italiano clásico con una mezcla equilibrada de gin, vermut rojo y Campari.",
+        "portion": 1,
+        "ingredients": [
+            "Gin",
+            "Vermut rojo",
+            "Campari",
+            "Rodaja de naranja",
+            "Hielo"
+        ],
+        "keywords": [
+            "Maceración cuidadosa"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/negroni.png"
+    },
+    {
+        "item_id": 3,
+        "name": "Pisco Sour",
+        "category": "bebibles",
+        "price": 1150,
+        "description": "Bebida tradicional peruana hecha con pisco, jugo de limón, azúcar, clara de huevo y amargo de Angostura.",
+        "portion": 1,
+        "ingredients": [
+            "Pisco",
+            "Jugo de limón",
+            "Azúcar",
+            "Clara de huevo",
+            "Amargo de Angostura",
+            "Hielo"
+        ],
+        "keywords": [
+            "Preparación artesanal"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/pisco_sour.png"
+    },
+    {
+        "item_id": 4,
+        "name": "Caipirinha",
+        "category": "bebibles",
+        "price": 950,
+        "description": "El cóctel brasileño más famoso, preparado con cachaça, limón y azúcar.",
+        "portion": 1,
+        "ingredients": [
+            "Cachaça",
+            "Limón",
+            "Azúcar",
+            "Hielo"
+        ],
+        "keywords": [
+            "Frutas de estación"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/caipirinha.png"
+    },
+    {
+        "item_id": 5,
+        "name": "Aperol Spritz",
+        "category": "bebibles",
+        "price": 11,
+        "description": "Refrescante y ligeramente amargo, este cóctel combina Aperol, prosecco y un toque de soda.",
+        "portion": 1,
+        "ingredients": [
+            "Aperol",
+            "Prosecco",
+            "Soda",
+            "Rodaja de naranja",
+            "Hielo"
+        ],
+        "keywords": [
+            "Ingredientes de calidad"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/aperol_spritz.png"
+    },
+    {
+        "item_id": 6,
+        "name": "Limonada de Menta y Jengibre",
+        "category": "bebibles",
+        "price": 6,
+        "description": "Refrescante limonada con un toque de menta y jengibre, perfecta para días calurosos.",
+        "portion": 1,
+        "ingredients": [
+            "Limón",
+            "Azúcar",
+            "Menta fresca",
+            "Jengibre",
+            "Agua",
+            "Hielo"
+        ],
+        "keywords": [
+            "Menta fresca",
+            "Limón exprimido"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/limonada_menta_jengibre.png"
+    },
+    {
+        "item_id": 7,
+        "name": "Smoothie de Frutos Rojos",
+        "category": "bebibles",
+        "price": 7,
+        "description": "Mezcla de frutillas, arándanos y frambuesas, con un toque de yogur y miel.",
+        "portion": 1,
+        "ingredients": [
+            "Frutillas",
+            "Arándanos",
+            "Frambuesas",
+            "Yogur",
+            "Miel",
+            "Hielo"
+        ],
+        "keywords": [
+            "Frutas frescas",
+            "Sin aditivos"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/smoothie_frutos_rojos.png"
+    },
+    {
+        "item_id": 8,
+        "name": "Té Helado de Durazno",
+        "category": "bebibles",
+        "price": 650,
+        "description": "Refrescante té helado con un toque de durazno, ideal para acompañar una comida ligera.",
+        "portion": 2,
+        "ingredients": [
+            "Té negro",
+            "Jugo de durazno",
+            "Azúcar",
+            "Rodaja de durazno",
+            "Hielo"
+        ],
+        "keywords": [
+            "Infusión natural",
+            "Endulzado a elección"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/te_helado_durazno.png"
+    },
+    {
+        "item_id": 9,
+        "name": "Agua de Coco",
+        "category": "bebibles",
+        "price": 5,
+        "description": "Agua de coco natural, servida bien fría para refrescarse y rehidratarse.",
+        "portion": 2,
+        "ingredients": [
+            "Agua de coco natural",
+            "Hielo"
+        ],
+        "keywords": [
+            "1% natural",
+            "Sin conservantes"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/agua_de_coco.png"
+    },
+    {
+        "item_id": 10,
+        "name": "Mojito Sin Alcohol",
+        "category": "bebibles",
+        "price": 650,
+        "description": "Versión sin alcohol del clásico mojito, con menta, limón y soda.",
+        "portion": 1,
+        "ingredients": [
+            "Menta fresca",
+            "Limón",
+            "Azúcar",
+            "Soda",
+            "Hielo"
+        ],
+        "keywords": [
+            "Hierbas frescas",
+            "Preparación artesanal"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/mojito_sin_alcohol.png"
+    },
+    {
+        "item_id": 11,
+        "name": "Tiramisú Clásico",
+        "category": "postres",
+        "price": 12,
+        "description": "postres italiano de capas de bizcochos empapados en café, con crema de mascarpone y cacao espolvoreado.",
+        "portion": 1,
+        "ingredients": [
+            "Bizcochos de soletilla",
+            "Café expreso",
+            "Queso mascarpone",
+            "Huevos",
+            "Azúcar",
+            "Cacao en polvo",
+            "Licor de café"
+        ],
+        "keywords": [
+            "Elaboración en capas",
+            "Mascarpone fresco"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/tiramisu_clásico.png"
+    },
+    {
+        "item_id": 12,
+        "name": "Cheesecake de Frutos Rojos",
+        "category": "postres",
+        "price": 15,
+        "description": "Cremoso cheesecake sobre una base de galleta, cubierto con salsa de frutos rojos.",
+        "portion": 1,
+        "ingredients": [
+            "Queso crema",
+            "Galletas",
+            "Manteca",
+            "Azúcar",
+            "Huevos",
+            "Crema de leche",
+            "Frambuesas",
+            "Moras",
+            "Arándanos",
+            "Azúcar",
+            "Limón"
+        ],
+        "keywords": [
+            "Galleta casera",
+            "Frutas frescas"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/cheesecake_frutos_rojos.png"
+    },
+    {
+        "item_id": 13,
+        "name": "Brownie con Helado de Vainilla",
+        "category": "postres",
+        "price": 11,
+        "description": "Brownie de chocolate denso y húmedo, servido caliente con una bola de helado de vainilla.",
+        "portion": 1,
+        "ingredients": [
+            "Chocolate amargo",
+            "Manteca",
+            "Azúcar",
+            "Huevos",
+            "Harina",
+            "Nueces",
+            "Helado de vainilla",
+            "Salsa de chocolate"
+        ],
+        "keywords": [
+            "Chocolate 70%",
+            "Helado artesanal"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/brownie_helado_vvainilla.png"
+    },
+    {
+        "item_id": 14,
+        "name": "Crème Brûlée",
+        "category": "postres",
+        "price": 14,
+        "description": "Cremosa crema de vainilla cubierta con una capa crujiente de azúcar caramelizado.",
+        "portion": 1,
+        "ingredients": [
+            "Crema de leche",
+            "Yemas de huevo",
+            "Azúcar",
+            "Vainilla",
+            "Azúcar"
+        ],
+        "keywords": [
+            "Caramelizado al momento"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/creme_brulee.png"
+    },
+    {
+        "item_id": 15,
+        "name": "Flan Casero",
+        "category": "postres",
+        "price": 10,
+        "description": "Tradicional flan de huevo y leche",
+        "portion": 1,
+        "ingredients": [
+            "Leche",
+            "Huevos",
+            "Azúcar",
+            "Esencia de vainilla"
+        ],
+        "keywords": [
+            "Preparación tradicional",
+            "Cocción lenta"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/flan_casero.png"
+    },
+    {
+        "item_id": 16,
+        "name": "Panna Cotta de Coco",
+        "category": "postres",
+        "price": 13,
+        "description": "Delicada panna cotta de coco, acompañada de una salsa de mango y coco rallado.",
+        "portion": 1,
+        "ingredients": [
+            "Crema de coco",
+            "Leche de coco",
+            "Gelatina",
+            "Azúcar",
+            "Mango",
+            "Coco rallado"
+        ],
+        "keywords": [
+            "Ingredientes frescos"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/panna_cotta_coco.png"
+    },
+    {
+        "item_id": 17,
+        "name": "Tarta de Manzana",
+        "category": "postres",
+        "price": 12,
+        "description": "Tarta con base de masa quebrada, rellena de manzanas caramelizadas y canela.",
+        "portion": 1,
+        "ingredients": [
+            "Harina de trigo",
+            "Yema de huevo",
+            "Leche",
+            "Manzanas",
+            "Azúcar",
+            "Canela",
+            "Manteca"
+        ],
+        "keywords": [
+            "Masa casera"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/tarta_manzana.png"
+    },
+    {
+        "item_id": 18,
+        "name": "Mousse de Chocolate",
+        "category": "postres",
+        "price": 14,
+        "description": "Suave y esponjosa mousse de chocolate, decorada con virutas de chocolate.",
+        "portion": 1,
+        "ingredients": [
+            "Chocolate amargo",
+            "Crema de leche",
+            "Claras de huevo",
+            "Azúcar"
+        ],
+        "keywords": [
+            "Chocolate 70%"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/mousse_chocolate.png"
+    },
+    {
+        "item_id": 19,
+        "name": "Helado Artesanal de Dulce de Leche",
+        "category": "postres",
+        "price": 11,
+        "description": "Helado casero de dulce de leche, servido con trocitos de almendra y salsa de caramelo.",
+        "portion": 1,
+        "ingredients": [
+            "Leche",
+            "Crema de leche",
+            "Dulce de leche",
+            "Azúcar",
+            "Almendras",
+            "Caramelo"
+        ],
+        "keywords": [
+            "Elaboración propia"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/helado_dulce_de_leche.png"
+    },
+    {
+        "item_id": 20,
+        "name": "Helado Artesanal de Chocolate y Naranja",
+        "category": "postres",
+        "price": 1150,
+        "description": "Cremoso helado de chocolate oscuro con un toque cítrico de naranja, decorado con ralladura de naranja y trocitos de chocolate.",
+        "portion": 1,
+        "ingredients": [
+            "Leche",
+            "Crema de leche",
+            "Chocolate amargo",
+            "Azúcar",
+            "Naranja",
+            "Cacao en polvo",
+            "Chocolate rallado"
+        ],
+        "keywords": [
+            "Elaboración propia"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/helado_chocolate_naranja.png"
+    },
+    {
+        "item_id": 21,
+        "name": "Bruschetta de Tomate y Albahaca",
+        "category": "entradas",
+        "price": 8,
+        "description": "Tostadas de pan crujiente cubiertas con una mezcla fresca de tomates cherry, albahaca, ajo y aceite de oliva.",
+        "portion": 1,
+        "ingredients": [
+            "Pan ciabatta",
+            "Tomates cherry",
+            "Albahaca fresca",
+            "Ajo",
+            "Aceite de oliva",
+            "Sal",
+            "Pimienta",
+            "Aceto balsámico"
+        ],
+        "keywords": [
+            "Pan artesanal",
+            "Ingredientes frescos"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/bruschetta_tomate_albahaca.png"
+    },
+    {
+        "item_id": 22,
+        "name": "Empanada de Carne",
+        "category": "entradas",
+        "price": 10,
+        "description": "Clásica empanada argentina rellena de carne de res, cebolla, huevo y aceitunas.",
+        "portion": 1,
+        "ingredients": [
+            "Carne de res picada",
+            "Cebolla",
+            "Huevo",
+            "ceitunas",
+            "Pimentón",
+            "Comino",
+            "Sal",
+            "Pimienta",
+            "Harina"
+        ],
+        "keywords": [
+            "Masa casera",
+            "Carne orgánica"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/empanada_carne.png"
+    },
+    {
+        "item_id": 23,
+        "name": "Tartar de Salmón",
+        "category": "entradas",
+        "price": 15,
+        "description": "Dados de salmón fresco mezclados con aguacate, cebolla morada y aderezo de limón y soja.",
+        "portion": 2,
+        "ingredients": [
+            "Salmón fresco",
+            "Aguacate",
+            "Cebolla morada",
+            "Cebollín",
+            "Salsa de soja",
+            "Jugo de limón",
+            "Aceite de sésamo",
+            "Semillas de sésamo"
+        ],
+        "keywords": [
+            "Salmón fresco",
+            "Corte a mano"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/tartar_salmon.png"
+    },
+    {
+        "item_id": 24,
+        "name": "Provoleta a la Parrilla",
+        "category": "entradas",
+        "price": 12,
+        "description": "Rodaja de queso provolone asado a la parrilla, servido con tomates asados.",
+        "portion": 2,
+        "ingredients": [
+            "Queso provolone",
+            "Tomate",
+            "Chimichurri",
+            "Aceite de oliva",
+            "Orégano",
+            "Sal",
+            "Pimienta"
+        ],
+        "keywords": [
+            "Cocción a leña"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/provoleta_parrilla.png"
+    },
+    {
+        "item_id": 25,
+        "name": "Ceviche de Pescado Blanco",
+        "category": "entradas",
+        "price": 14,
+        "description": "Trozos de pescado blanco marinados en jugo de limón con cebolla morada, cilantro y pimientos.",
+        "portion": 1,
+        "ingredients": [
+            "Pescado blanco",
+            "Jugo de limón",
+            "Cebolla morada",
+            "Cilantro",
+            "Pimiento rojo",
+            "Ajo",
+            "Sal",
+            "Pimienta"
+        ],
+        "keywords": [
+            "Pescado fresco"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/ceviche_pescado_blanco.png"
+    },
+    {
+        "item_id": 26,
+        "name": "Croquetas de Jamón y Queso",
+        "category": "entradas",
+        "price": 9,
+        "description": "Croquetas crujientes rellenas de jamón y queso, acompañadas de una salsa alioli.",
+        "portion": 1,
+        "ingredients": [
+            "Jamón cocido",
+            "Queso mozzarella",
+            "Leche",
+            "Harina",
+            "Huevo",
+            "Pan rallado",
+            "Ajo",
+            "Aceite de oliva",
+            "Limón",
+            "Sal"
+        ],
+        "keywords": [
+            "Elaboración artesanal"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/croquetas_jamon_queso.png"
+    },
+    {
+        "item_id": 27,
+        "name": "Gazpacho Andaluz",
+        "category": "entradas",
+        "price": 750,
+        "description": "Sopa fría de tomate, pimiento y pepino, servida con crutones y un toque de aceite de oliva.",
+        "portion": 1,
+        "ingredients": [
+            "Tomate",
+            "Pimiento rojo",
+            "Pepino",
+            "Ajo",
+            "Cebolla",
+            "Pan",
+            "Aceite de oliva",
+            "Vinagre de vino",
+            "Sal",
+            "Pimienta"
+        ],
+        "keywords": [
+            "Elaboración tradicional",
+            "Ingredientes frescos"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/gazpacho_andaluz.png"
+    },
+    {
+        "item_id": 28,
+        "name": "Calamares a la Romana",
+        "category": "entradas",
+        "price": 13,
+        "description": "Anillos de calamar rebozados y fritos, servidos con salsa tártara.",
+        "portion": 2,
+        "ingredients": [
+            "Calamares",
+            "Harina",
+            "Huevo",
+            "Pan rallado",
+            "Aceite",
+            "Limón",
+            "Perejil",
+            "Mayonesa",
+            "Pepinillos",
+            "Alcaparras"
+        ],
+        "keywords": [
+            "Empanizado artesanal",
+            "Fritos al momento"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/calamares_romana.png"
+    },
+    {
+        "item_id": 29,
+        "name": "Tabla de Quesos",
+        "category": "entradas",
+        "price": 18,
+        "description": "Selección de quesos, acompañados de frutos secos y miel.",
+        "portion": 3,
+        "ingredients": [
+            "Queso brie",
+            "Queso azul",
+            "Queso Gouda",
+            "Queso Cheddar",
+            "Nueces",
+            "Almendras",
+            "Miel",
+            "Uvas"
+        ],
+        "keywords": [
+            "Selección de guarda"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/tabla_quesos_fiambres.png"
+    },
+    {
+        "item_id": 30,
+        "name": "Patatas Bravas",
+        "category": "entradas",
+        "price": 850,
+        "description": "Papas fritas acompañadas de una salsa brava picante y alioli.",
+        "portion": 2,
+        "ingredients": [
+            "Papas",
+            "Aceite",
+            "Pimentón",
+            "Ajo",
+            "Tomate",
+            "Vinagre",
+            "Sal",
+            "Mayonesa",
+            "Ajo",
+            "Limón"
+        ],
+        "keywords": [
+            "Receta tradicional"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/patatas_bravas.png"
+    },
+    {
+        "item_id": 31,
+        "name": "Bife de Chorizo con Papas Rústicas",
+        "category": "platos",
+        "price": 32,
+        "description": "Un jugoso bife de chorizo a la parrilla acompañado de papas rústicas y ensalada de hojas verdes.",
+        "portion": 1,
+        "ingredients": [
+            "Bife de chorizo",
+            "Papas",
+            "Aceite de oliva",
+            "Sal",
+            "Pimienta",
+            "Lechuga mantecosa",
+            "Rúcula",
+            "Espinaca cruda",
+            "Tomates cherry"
+        ],
+        "keywords": [
+            "Carne orgánica",
+            "Cocción a leña"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/bife_chorizo_papas_rusticas.png"
+    },
+    {
+        "item_id": 32,
+        "name": "Risotto de Hongos y Parmesano",
+        "category": "platos",
+        "price": 28,
+        "description": "Cremoso risotto elaborado con hongos frescos y queso parmesano, terminado con un toque de aceite de trufa.",
+        "portion": 1,
+        "ingredients": [
+            "Arroz arborio",
+            "Hongos portobello",
+            "Champiñones",
+            "Cebolla",
+            "Ajo",
+            "Vino blanco",
+            "Caldo de verduras",
+            "Queso parmesano",
+            "Aceite de trufa"
+        ],
+        "keywords": [
+            "Arroz arborio",
+            "Cocción al momento"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/rissotto_hongos_parmesano.png"
+    },
+    {
+        "item_id": 33,
+        "name": "Pasta a la Carbonara",
+        "category": "platos",
+        "price": 25,
+        "description": "Tradicional pasta italiana en una rica salsa de crema, queso parmesano, panceta crujiente y huevo.",
+        "portion": 1,
+        "ingredients": [
+            "Fideos de pasta tagliatelle",
+            "Panceta",
+            "Huevo",
+            "Crema de leche",
+            "Queso parmesano",
+            "Pimienta negra"
+        ],
+        "keywords": [
+            "Elaboración propia"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/pasta_carbonara.png"
+    },
+    {
+        "item_id": 34,
+        "name": "Ensalada de Quinoa y Pollo Grillado",
+        "category": "platos",
+        "price": 21,
+        "description": "Ensalada fresca con quinoa, pollo grillado, palta, tomates cherry, pepino y un aderezo de limón.",
+        "portion": 1,
+        "ingredients": [
+            "Quinoa",
+            "Pechuga de pollo",
+            "Palta",
+            "Tomates cherry",
+            "Pepino",
+            "Lechuga mantecosa",
+            "Limón",
+            "Aceite de oliva",
+            "Sal",
+            "Pimienta"
+        ],
+        "keywords": [
+            "Quinoa orgánica"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/ensalada_quinoa_pollo.png"
+    },
+    {
+        "item_id": 35,
+        "name": "Salmón al Horno con Puré de Batata",
+        "category": "platos",
+        "price": 34,
+        "description": "Filete de salmón al horno acompañado de puré de batata y espárragos salteados.",
+        "portion": 1,
+        "ingredients": [
+            "Salmón",
+            "Batata",
+            "Manteca",
+            "Crema de leche",
+            "Espárragos",
+            "Aceite de oliva",
+            "Sal",
+            "Pimienta"
+        ],
+        "keywords": [
+            "Salmón fresco",
+            "Cocción en horno de barro"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/salmon_horno_pure_batata.png"
+    },
+    {
+        "item_id": 36,
+        "name": "Milanesa Napolitana con Papas Fritas",
+        "category": "platos",
+        "price": 27,
+        "description": "Clásica milanesa de carne cubierta con jamón, queso, salsa de tomate y orégano, acompañada de papas fritas.",
+        "portion": 1,
+        "ingredients": [
+            "Carne de res",
+            "Huevo",
+            "Pan rallado",
+            "Jamón cocido",
+            "Queso mozzarella",
+            "Salsa de tomate",
+            "Orégano",
+            "Papas",
+            "Aceite"
+        ],
+        "keywords": [
+            "Empanizado artesanal",
+            "Ingredientes frescos"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/milanesa_napolitana_papas_fritas.png"
+    },
+    {
+        "item_id": 37,
+        "name": "Lomo a la Pimienta con Puré de papas",
+        "category": "platos",
+        "price": 35,
+        "description": "Suave lomo de res con una cremosa salsa de pimienta, acompañado de puré de papas y vegetales al vapor.",
+        "portion": 1,
+        "ingredients": [
+            "Carne Lomo de res",
+            "Pimienta negra",
+            "Crema de leche",
+            "Coñac",
+            "Papas",
+            "Manteca",
+            "Leche",
+            "Queso parmesano",
+            "Sal",
+            "Zanahorias",
+            "Brócoli"
+        ],
+        "keywords": [
+            "Carne orgánica",
+            "Cocción a leña"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/lomo_pimienta_pure_papas.png"
+    },
+    {
+        "item_id": 38,
+        "name": "Tacos de Pescado con Salsa Tártara",
+        "category": "platos",
+        "price": 23,
+        "description": "Tacos rellenos de pescado fresco rebozado, repollo, aguacate y salsa tártara, servidos con un toque de limón.",
+        "portion": 1,
+        "ingredients": [
+            "Filetes de pescado",
+            "Tortillas de maíz",
+            "Repollo",
+            "Aguacate",
+            "Limón",
+            "Mayonesa",
+            "Pepinillos",
+            "Cebolla",
+            "Jugo de limón",
+            "Sal"
+        ],
+        "keywords": [
+            "Pesca del día",
+            "Salsa casera"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/tacos_pescado.png"
+    },
+    {
+        "item_id": 39,
+        "name": "Pollo al Curry con Arroz Basmati",
+        "category": "platos",
+        "price": 26,
+        "description": "Pechuga de pollo en una salsa de curry cremosa con leche de coco, acompañada de arroz basmati.",
+        "portion": 1,
+        "ingredients": [
+            "Pechuga de pollo",
+            "Leche de coco",
+            "Curry en polvo",
+            "Cebolla",
+            "Ajo",
+            "Jengibre",
+            "Arroz basmati",
+            "Cilantro",
+            "Aceite",
+            "Sal"
+        ],
+        "keywords": [
+            "Especias seleccionadas",
+            "Cocción lenta"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/pollo_curry_arroz_basmati.png"
+    },
+    {
+        "item_id": 40,
+        "name": "Vegetariano Stir-Fry con Tofu",
+        "category": "platos",
+        "price": 22,
+        "description": "Salteado de verduras frescas y tofu en salsa de soja, servido sobre una cama de arroz integral.",
+        "portion": 1,
+        "ingredients": [
+            "Tofu",
+            "Zanahorias",
+            "Pimientos",
+            "Brócoli",
+            "Champiñones",
+            "Cebolla",
+            "Ajo",
+            "Salsa de soja",
+            "Aceite de sésamo",
+            "Arroz integral"
+        ],
+        "keywords": [
+            "Verduras de estación",
+            "Tofu fresco"
+        ],
+        "image_url": "https://raw.githubusercontent.com/rogelioolarte/s16-01-ft-csharp-react/main/items_images/vegetariano_stirfry_con_tofu.png"
+    }
+]
